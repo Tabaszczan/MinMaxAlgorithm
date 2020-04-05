@@ -1,0 +1,89 @@
+digraph G {
+"prot; -" -> "ant;\n 4" [label = "4" color=red];
+"prot; -" -> "ant;\n 5" [label = "5"];
+"prot; -" -> "ant;\n 6" [label = "6"];
+
+"ant;\n 4" -> "prot; \n 8" [label = "4"];
+"ant;\n 4" -> "prot; \n 9" [label = "5"];
+"ant;\n 4" -> "prot; \n 10" [label = "6" color=blue];
+
+"ant;\n 5" -> "prot; \n 9" [label = "4"];
+"ant;\n 5" -> "prot; \n 10" [label = "5" color=blue];
+"ant;\n 5" -> "prot; \n 11" [label = "6"];
+
+"ant;\n 6" -> "prot; \n 10" [label = "4" color=blue];
+"ant;\n 6" -> "prot; \n 11" [label = "5"];
+"ant;\n 6" -> "prot; \n 12" [label = "6"];
+
+"prot; \n 8" -> "ant;\n 12" [label = "4" color=red];
+"prot; \n 8" -> "ant;\n 13" [label = "5"];
+"prot; \n 8" -> "ant;\n 14" [label = "6"];
+
+"prot; \n 9" -> "ant;\n 13" [label = "4" color=red];
+"prot; \n 9" -> "ant;\n 14" [label = "5"];
+"prot; \n 9" -> "ant;\n 15" [label = "6"];
+
+"prot; \n 10" -> "ant;\n 14" [label = "4" color=red];
+"prot; \n 10" -> "ant;\n 15" [label = "5"];
+"prot; \n 10" -> "ant;\n 16" [label = "6"];
+
+"prot; \n 11" -> "ant;\n 15" [label = "4"];
+"prot; \n 11" -> "ant;\n 16" [label = "5"];
+"prot; \n 11" -> "ant;\n 17" [label = "6" color=red];
+
+"prot; \n 12" -> "ant;\n 16" [label = "4"];
+"prot; \n 12" -> "ant;\n 17" [label = "5"];
+"prot; \n 12" -> "ant;\n 18" [label = "6" color=red];
+
+"ant;\n 12" -> "prot; \n 16" [label = "4"];
+"ant;\n 12" -> "prot; \n 17" [label = "5"];
+"ant;\n 12" -> "prot; \n 18" [label = "6" color=blue];
+
+"ant;\n 13" -> "prot; \n 17" [label = "4"];
+"ant;\n 13" -> "prot; \n 18" [label = "5"];
+"ant;\n 13" -> "prot; \n 19" [label = "6" color=blue];
+
+"ant;\n 14" -> "prot; \n 18" [label = "4"];
+"ant;\n 14" -> "prot; \n 19" [label = "5"];
+"ant;\n 14" -> "prot; \n 20" [label = "6" color=blue];
+
+"ant;\n 15" -> "prot; \n 19" [label = "4"];
+"ant;\n 15" -> "prot; \n 20" [label = "5" color=blue];
+"ant;\n 15" -> "0" [label = "6"];
+
+"ant;\n 16" -> "prot; \n 20" [label = "4" color=blue];
+"ant;\n 16" -> "0" [label = "5"];
+"ant;\n 16" -> "1" [label = "6"];
+
+"ant;\n 17" -> "0" [label = "4" color=blue];
+"ant;\n 17" -> "1" [label = "5"];
+"ant;\n 17" -> "1" [label = "6"];
+
+"ant;\n 18" -> "1" [label = "4" color=blue];
+"ant;\n 18" -> "1" [label = "5"];
+"ant;\n 18" -> "1" [label = "6"];
+
+"prot; \n 16" -> "ant;\n 20" [label = "4" color=red];
+"prot; \n 16" -> "0" [label = "5"];
+"prot; \n 16" -> "-1" [label = "6"];
+
+"prot; \n 17" -> "0" [label = "4" color=red];
+"prot; \n 17" -> "-1" [label = "5"];
+"prot; \n 17" -> "-1" [label = "6"];
+
+"prot; \n 18" -> "-1" [label = "4" color=red];
+"prot; \n 18" -> "-1" [label = "5"];
+"prot; \n 18" -> "-1" [label = "6"];
+
+"prot; \n 19" -> "-1" [label = "4" color=red];
+"prot; \n 19" -> "-1" [label = "5"];
+"prot; \n 19" -> "-1" [label = "6"];
+
+"prot; \n 20" -> "-1" [label = "4" color=red];
+"prot; \n 20" -> "-1" [label = "5"];
+"prot; \n 20" -> "-1" [label = "6"];
+
+"ant;\n 20" -> "1" [label = "4" color=blue];
+"ant;\n 20" -> "1" [label = "5"];
+"ant;\n 20" -> "1" [label = "6"];
+}
